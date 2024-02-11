@@ -1,0 +1,124 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+
+form li{
+   list-style: none;
+}
+.navbar{
+ height: 80px;
+}
+.navbar-brand{
+    text-shadow: 1px 5px 5px rgb(41, 38, 38);
+    font-size: 33px !important;
+    font-weight: bold;
+    /* color: rgb(7, 7, 109) !important; */
+    color: rgb(204, 190, 171) !important;
+}
+.navbar-brand:hover{
+    color: rgb(211, 205, 196) !important;
+    text-shadow: 1px 3px 4px rgb(209, 189, 152);
+}
+nav ul#links{
+ display: none;
+}
+.products{
+    width: 60%;
+    margin: 30px 0;
+}
+.product_item{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    min-height: 150px;
+    border: 1px solid  #ddd;
+    margin-bottom: 20px;
+}
+.product_item_img{
+    width: 27%;
+     margin-right: 10px;
+}
+.product_item_actions{
+    flex:1;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.product_item .add_to_cart{
+  display: block;
+  margin-left: auto;
+  background-color: green;
+  color: azure;
+  border:0;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+}
+.product_item .fav{
+    cursor: pointer;
+    display: block;
+    width: 20px;
+    margin-left: auto;
+}
+.user_info {
+    display: flex;
+    flex-direction: row;
+}
+
+.user_info li i{
+    color:black;
+    font-size: 25px;
+    cursor: pointer;
+}
+.user_info li{
+margin: 0 10px;
+position: relative;
+}
+.user_info li .badge{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: red;
+    color:blanchedalmond;
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+    top:-6px;
+    right: 0;
+    display: none;
+    
+}
+.carts_products{
+    position: absolute;
+    width: 200px;
+    transform: translate(-80px,0);
+    background-color: aqua;
+    top: 61px;
+    padding: 10px ;
+    display: none;
+    
+}
+.carts_products a{
+   display: block;
+   color: black;
+  
+   padding: 0;
+   background-color: chartreuse;
+   text-align: center;
+   
+   text-decoration: none;
+    /* display: block;
+    width: 200px;
+    transform: translate(-18%,0);
+    background-color: aquamarine; */
+
+}
+
+

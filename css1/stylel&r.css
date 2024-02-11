@@ -1,0 +1,74 @@
+.navbar{
+    height: 88px;
+   
+}
+body{
+    background-color: rgb(211, 189, 189)!important;
+}
+.navbar-brand{
+    text-shadow: 1px 5px 5px rgb(41, 38, 38);
+    font-size: 33px !important;
+    font-weight: bold;
+    /* color: rgb(7, 7, 109) !important; */
+    color: rgb(204, 190, 171) !important;
+}
+.navbar-brand:hover{
+    color: rgb(211, 205, 196) !important;
+    text-shadow: 1px 3px 4px rgb(209, 189, 152);
+}
+#nav_l{
+    text-shadow: 1px 5px 5px rgb(41, 38, 38);
+    font-size: 33px !important;
+    font-weight: bold;
+    /* color: rgb(7, 7, 109) !important; */
+    color: rgb(204, 190, 171) !important;
+}
+#nav_l:hover{
+    color: rgb(211, 205, 196) !important;
+    text-shadow: 1px 3px 4px rgb(209, 189, 152);
+}
+.container{
+    border-radius: 15px;
+    height: 470px;
+    width: 700px;
+    background-color: rgb(226, 217, 217) !important;
+}
+#con{
+    border-radius: 15px;
+    height: 300px;
+    width: 700px;
+    background-color: rgb(226, 217, 217) !important;
+}
+.form-group label{
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+button{
+    background-color: rgb(211, 189, 189) !important;
+    border: 1px solid rgb(211, 189, 189) !important;
+   font-family: cursive !important;
+   margin-left: 310px !important;
+   color: black !important;
+   width: 111px;
+   border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(99, 90, 90) !important;
+    color: white !important;
+    text-shadow: 4px 6px 5px black;
+    opacity: 0.5;
+}
+#email{
+  outline: none !important;
+}
+form .form-row{
+   padding: 30px 0;
+   
+}
+.account{
+   font-size: 15px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+/*////////////////////////////////*/
+
